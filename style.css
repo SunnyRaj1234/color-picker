@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#6f4d4d;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    transition: background-color 0.3s ease;
+
+}
+.color-picker-container{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(223, 227, 231);
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.title{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+.color-display{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10%;
+    margin: 0 auto 1.25rem;
+    transition: background-color 0.3s ease;
+    border: 0.2rem solid #ccc;
+}
+.color-input{
+    padding: 2;
+ 
+    border: 0.2rem solid #df0909;
+    border-radius: 0.3rem;
+    transition: border-color 0.3s ease;
+
+}
+.color-input:hover,
+.color-input:focus{
+    border: color #ff7f50;
+    outline: none;
+}
